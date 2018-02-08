@@ -1,0 +1,17 @@
+{
+  "name": "mediabank/pam-core",
+  "description": "Physical Asset Manager Core Libaray",
+  "require": {
+    "symfony/process": "~3.1",
+    "aws/aws-sdk-php": "~3.18",
+    "phpmailer/phpmailer": "~5.2",
+    "parsecsv/php-parsecsv": "0.4.5",
+    "monolog/monolog": "^1.0",
+    "maxbanton/cwh": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PamCore\\": "src/PamCore/"
+    }
+  }
+}
